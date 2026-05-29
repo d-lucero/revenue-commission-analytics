@@ -56,6 +56,8 @@ The goal is to build a scalable financial analytics system that improves financi
 ---
 
 ## Project Structure
+
+```
 revenue-commission-analytics/
 │
 ├── data/
@@ -64,6 +66,7 @@ revenue-commission-analytics/
 ├── dashboards/
 ├── images/
 └── README.md
+```
 
 
 ---
