@@ -1,0 +1,6 @@
+sale_id,rep_id,contract_id,commission_rate,deal_type
+S001,R001,CT001,0.07,New
+S002,R002,CT002,0.08,New
+S003,R003,CT003,0.07,Renewal
+S004,R004,CT004,0.10,New
+S005,R001,CT005,0.06,Renewal
