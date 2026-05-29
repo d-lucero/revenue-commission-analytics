@@ -56,3 +56,45 @@ The goal is to build a scalable financial analytics system that improves financi
 ---
 
 ## Project Structure
+revenue-commission-analytics/
+│
+├── data/
+├── sql/
+├── excel_models/
+├── dashboards/
+├── images/
+└── README.md
+
+
+---
+
+## Key Insights
+
+- Identified potential inconsistencies in commission calculations  
+- Highlighted timing differences in revenue recognition  
+- Improved visibility into deferred revenue balances  
+- Demonstrated automation of financial reporting processes  
+
+---
+
+## Business Impact
+
+This project demonstrates how financial analytics systems can:
+
+- Improve commission accuracy  
+- Support revenue recognition compliance  
+- Enhance reporting efficiency  
+- Enable better decision-making across teams  
+
+---
+
+## About
+
+This is a simulated project designed to reflect real-world financial analytics workflows in subscription-based and contract-driven business environments.
+
+---
+
+## Author
+
+**Dione Lucero**  
+Data Analyst | Financial Analytics | SQL • Tableau • Excel  
