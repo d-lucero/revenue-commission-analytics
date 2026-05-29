@@ -1,0 +1,6 @@
+customer_id,customer_name,customer_segment,city,state
+C001,Northwest Dental Group,Commercial,Seattle,WA
+C002,Evergreen Apartments,Residential Property,Tacoma,WA
+C003,Cascade Retail Center,Commercial,Bellingham,WA
+C004,Valley Family Homes,Residential,Yakima,WA
+C005,Soundview Medical Clinic,Commercial,Seattle,WA
