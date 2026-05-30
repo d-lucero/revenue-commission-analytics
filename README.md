@@ -1,4 +1,4 @@
-# 📊 Revenue & Commission Analytics System
+# Revenue & Commission Analytics System
 
 ## Overview
 
