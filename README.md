@@ -22,6 +22,14 @@ The goal of this project is to build a scalable financial analytics system that 
 
 This dashboard provides a high-level financial overview followed by detailed revenue and commission analysis.
 
+### Overview
+
+![Dashboard Overview](images/dashboard_top.png)
+
+### Detailed Analysis
+
+![Dashboard Details](images/dashboard_bottom.png)
+
 ### Overview (KPIs)
 
 ![Dashboard Overview](images/dashboard_top.png)
