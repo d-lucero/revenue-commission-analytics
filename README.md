@@ -1,20 +1,42 @@
-# Revenue & Commission Analytics System
+# 📊 Revenue & Commission Analytics System
 
 ## Overview
 
 This project simulates a real-world financial analytics environment for a subscription-based services business. It reflects core financial operations including revenue recognition, commission calculations, deferred revenue tracking, and month-end close reporting.
 
-The goal is to build a scalable financial analytics system that improves financial accuracy, supports compensation transparency, and enables data-driven decision-making.
+The goal of this project is to build a scalable financial analytics system that improves financial accuracy, enhances compensation transparency, and supports data-driven decision-making across Finance, Sales, and Operations.
 
 ---
 
 ## Business Objectives
 
 - Ensure accurate commission calculations across sales teams  
-- Align revenue recognition with contract terms  
-- Track deferred revenue and future earnings  
-- Improve financial reporting visibility  
-- Streamline month-end close processes  
+- Align revenue recognition with contract terms and financial reporting standards  
+- Track deferred revenue and future earnings obligations  
+- Improve visibility into financial performance and key metrics  
+- Streamline month-end close processes through structured reporting  
+
+---
+
+## Dashboard Preview
+
+This dashboard provides a high-level financial overview followed by detailed revenue and commission analysis.
+
+### Overview (KPIs)
+
+![Dashboard Overview](images/dashboard_top.png)
+
+### Detailed Analysis
+
+![Dashboard Details](images/dashboard_bottom.png)
+
+---
+
+## Key Metrics
+
+- **Total Recognized Revenue** – Revenue earned over time based on contract terms  
+- **Total Deferred Revenue** – Remaining unearned revenue to be recognized in future periods  
+- **Total Commission Expense** – Total sales compensation tied to contract acquisition  
 
 ---
 
@@ -23,71 +45,70 @@ The goal is to build a scalable financial analytics system that improves financi
 ### Commission Calculation Model
 - Calculates commissions based on contract value and commission rates  
 - Supports multiple deal types (new vs renewal)  
-- Includes validation checks for accuracy  
+- Includes validation checks to ensure accuracy  
 
 ### Revenue Recognition Model
-- Allocates revenue across contract duration  
+- Allocates revenue across the contract lifecycle  
 - Separates recognized vs deferred revenue  
-- Simulates subscription-based financial reporting  
+- Simulates subscription-based financial reporting practices  
 
 ### Deferred Revenue Tracking
-- Tracks unearned revenue over time  
+- Tracks unearned revenue balances over time  
 - Supports forecasting and financial planning  
 
 ### Financial Reporting Dashboard
-- Revenue trends and performance metrics  
-- Commission expense analysis  
-- Deferred vs recognized revenue tracking  
+- Visualizes revenue trends and financial performance  
+- Analyzes commission expenses and sales performance  
+- Tracks deferred vs recognized revenue  
+- Provides insight into customer segmentation  
 
 ### SQL Data Analysis
-- Revenue aggregation by month  
-- Commission calculation queries  
-- Month-end financial summaries  
+- Aggregates revenue by month  
+- Calculates commission expense  
+- Supports month-end financial reporting workflows  
 
 ---
 
 ## Tools & Technologies
 
-- SQL  
-- Excel  
-- Tableau / Power BI  
-- Data Modeling  
+- **SQL** – Data extraction, joins, and financial aggregation  
+- **Excel** – Commission modeling and revenue calculations  
+- **Tableau** – Dashboard development and data visualization  
+- **Data Modeling** – Structured financial datasets for reporting  
 
 ---
 
 ## Project Structure
 
-```
 revenue-commission-analytics/
 │
-├── data/
-├── sql/
-├── excel_models/
-├── dashboards/
-├── images/
+├── data/ # Financial datasets (contracts, revenue, commissions)
+├── sql/ # SQL queries for financial analysis
+├── excel_models/ # Commission and revenue modeling logic
+├── dashboards/ # Tableau dashboard files
+├── images/ # Dashboard screenshots
 └── README.md
-```
 
 
 ---
 
 ## Key Insights
 
-- Identified potential inconsistencies in commission calculations  
-- Highlighted timing differences in revenue recognition  
-- Improved visibility into deferred revenue balances  
-- Demonstrated automation of financial reporting processes  
+- Identified potential inconsistencies in commission structures that could lead to overpayment  
+- Highlighted timing differences between contract execution and revenue recognition  
+- Improved visibility into deferred revenue and future earnings  
+- Demonstrated how structured reporting improves financial accuracy and efficiency  
 
 ---
 
 ## Business Impact
 
-This project demonstrates how financial analytics systems can:
+This project demonstrates how a financial analytics system can:
 
-- Improve commission accuracy  
-- Support revenue recognition compliance  
-- Enhance reporting efficiency  
-- Enable better decision-making across teams  
+- Improve commission accuracy and transparency  
+- Support revenue recognition best practices  
+- Reduce manual effort in month-end close processes  
+- Enable better cross-functional alignment between Finance and Sales  
 
 ---
 
