@@ -80,14 +80,27 @@ This dashboard provides a high-level financial overview followed by detailed rev
 
 ## Project Structure
 
+```text
 revenue-commission-analytics/
-│
-├── data/ # Financial datasets (contracts, revenue, commissions)
-├── sql/ # SQL queries for financial analysis
-├── excel_models/ # Commission and revenue modeling logic
-├── dashboards/ # Tableau dashboard files
-├── images/ # Dashboard screenshots
+├── data/
+│   ├── customers.csv
+│   ├── contracts.csv
+│   ├── sales_reps.csv
+│   ├── commissions.csv
+│   └── revenue_schedule.csv
+├── sql/
+│   ├── 01_revenue_by_month.sql
+│   ├── 02_commission_calculations.sql
+│   └── 03_month_end_close_summary.sql
+├── excel_models/
+│   └── commission_model_notes.md
+├── dashboards/
+│   └── dashboard_design_notes.md
+├── images/
+│   ├── dashboard_top.png
+│   └── dashboard_bottom.png
 └── README.md
+```
 
 
 ---
